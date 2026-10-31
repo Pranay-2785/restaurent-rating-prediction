@@ -1,0 +1,1014 @@
+{
+  "row_count": 7037,
+  "feature_columns": [
+    "restaurant type",
+    "num of ratings",
+    "avg cost (two people)",
+    "online_order",
+    "table booking",
+    "area",
+    "cuisine__Afghan",
+    "cuisine__Afghani",
+    "cuisine__African",
+    "cuisine__American",
+    "cuisine__Andhra",
+    "cuisine__Arabian",
+    "cuisine__Asian",
+    "cuisine__Assamese",
+    "cuisine__Australian",
+    "cuisine__Awadhi",
+    "cuisine__Bakery",
+    "cuisine__Bar Food",
+    "cuisine__BBQ",
+    "cuisine__Belgian",
+    "cuisine__Bengali",
+    "cuisine__Beverages",
+    "cuisine__Bihari",
+    "cuisine__Biryani",
+    "cuisine__Bohri",
+    "cuisine__British",
+    "cuisine__Bubble Tea",
+    "cuisine__Burger",
+    "cuisine__Burmese",
+    "cuisine__Cafe",
+    "cuisine__Cantonese",
+    "cuisine__Charcoal Chicken",
+    "cuisine__Chettinad",
+    "cuisine__Chinese",
+    "cuisine__Coffee",
+    "cuisine__Continental",
+    "cuisine__Desserts",
+    "cuisine__Drinks Only",
+    "cuisine__European",
+    "cuisine__Fast Food",
+    "cuisine__Finger Food",
+    "cuisine__French",
+    "cuisine__German",
+    "cuisine__Goan",
+    "cuisine__Greek",
+    "cuisine__Grill",
+    "cuisine__Gujarati",
+    "cuisine__Healthy Food",
+    "cuisine__Hot dogs",
+    "cuisine__Hyderabadi",
+    "cuisine__Ice Cream",
+    "cuisine__Indian",
+    "cuisine__Indonesian",
+    "cuisine__Iranian",
+    "cuisine__Italian",
+    "cuisine__Japanese",
+    "cuisine__Jewish",
+    "cuisine__Juices",
+    "cuisine__Kashmiri",
+    "cuisine__Kebab",
+    "cuisine__Kerala",
+    "cuisine__Konkan",
+    "cuisine__Korean",
+    "cuisine__Lebanese",
+    "cuisine__Lucknowi",
+    "cuisine__Maharashtrian",
+    "cuisine__Malaysian",
+    "cuisine__Mangalorean",
+    "cuisine__Mediterranean",
+    "cuisine__Mexican",
+    "cuisine__Middle Eastern",
+    "cuisine__Mithai",
+    "cuisine__Modern Indian",
+    "cuisine__Momos",
+    "cuisine__Mongolian",
+    "cuisine__Mughlai",
+    "cuisine__Naga",
+    "cuisine__Nepalese",
+    "cuisine__North Eastern",
+    "cuisine__North Indian",
+    "cuisine__Oriya",
+    "cuisine__Paan",
+    "cuisine__Pan Asian",
+    "cuisine__Parsi",
+    "cuisine__Pizza",
+    "cuisine__Portuguese",
+    "cuisine__Rajasthani",
+    "cuisine__Raw Meats",
+    "cuisine__Roast Chicken",
+    "cuisine__Rolls",
+    "cuisine__Russian",
+    "cuisine__Salad",
+    "cuisine__Sandwich",
+    "cuisine__Seafood",
+    "cuisine__Sindhi",
+    "cuisine__Singaporean",
+    "cuisine__South American",
+    "cuisine__South Indian",
+    "cuisine__Spanish",
+    "cuisine__Sri Lankan",
+    "cuisine__Steak",
+    "cuisine__Street Food",
+    "cuisine__Sushi",
+    "cuisine__Tamil",
+    "cuisine__Tea",
+    "cuisine__Tex-Mex",
+    "cuisine__Thai",
+    "cuisine__Tibetan",
+    "cuisine__Turkish",
+    "cuisine__Vegan",
+    "cuisine__Vietnamese",
+    "cuisine__Wraps"
+  ],
+  "features": {
+    "restaurant type": {
+      "kind": "categorical",
+      "options": [
+        "Bakery",
+        "Bakery, Beverage Shop",
+        "Bakery, Cafe",
+        "Bakery, Dessert Parlor",
+        "Bakery, Quick Bites",
+        "Bar",
+        "Bar, Casual Dining",
+        "Bar, Lounge",
+        "Bar, Pub",
+        "Beverage Shop",
+        "Beverage Shop, Cafe",
+        "Beverage Shop, Dessert Parlor",
+        "Beverage Shop, Quick Bites",
+        "Bhojanalya",
+        "Cafe",
+        "Cafe, Bakery",
+        "Cafe, Bar",
+        "Cafe, Casual Dining",
+        "Cafe, Dessert Parlor",
+        "Cafe, Lounge",
+        "Cafe, Quick Bites",
+        "Casual Dining",
+        "Casual Dining, Bar",
+        "Casual Dining, Cafe",
+        "Casual Dining, Irani Cafee",
+        "Casual Dining, Lounge",
+        "Casual Dining, Microbrewery",
+        "Casual Dining, Pub",
+        "Casual Dining, Quick Bites",
+        "Casual Dining, Sweet Shop",
+        "Club",
+        "Club, Casual Dining",
+        "Confectionery",
+        "Delivery",
+        "Dessert Parlor",
+        "Dessert Parlor, Bakery",
+        "Dessert Parlor, Beverage Shop",
+        "Dessert Parlor, Cafe",
+        "Dessert Parlor, Food Court",
+        "Dessert Parlor, Quick Bites",
+        "Dessert Parlor, Sweet Shop",
+        "Dhaba",
+        "Fine Dining",
+        "Fine Dining, Bar",
+        "Fine Dining, Lounge",
+        "Fine Dining, Microbrewery",
+        "Food Court",
+        "Food Court, Beverage Shop",
+        "Food Court, Casual Dining",
+        "Food Court, Dessert Parlor",
+        "Food Court, Quick Bites",
+        "Food Truck",
+        "Kiosk",
+        "Lounge",
+        "Lounge, Bar",
+        "Lounge, Cafe",
+        "Lounge, Casual Dining",
+        "Lounge, Microbrewery",
+        "Mess",
+        "Microbrewery",
+        "Microbrewery, Bar",
+        "Microbrewery, Casual Dining",
+        "Microbrewery, Lounge",
+        "Microbrewery, Pub",
+        "Pub",
+        "Pub, Bar",
+        "Pub, Casual Dining",
+        "Pub, Microbrewery",
+        "Quick Bites",
+        "Quick Bites, Bakery",
+        "Quick Bites, Beverage Shop",
+        "Quick Bites, Cafe",
+        "Quick Bites, Dessert Parlor",
+        "Quick Bites, Food Court",
+        "Quick Bites, Meat Shop",
+        "Quick Bites, Mess",
+        "Quick Bites, Sweet Shop",
+        "Sweet Shop",
+        "Sweet Shop, Quick Bites",
+        "Takeaway",
+        "Takeaway, Delivery"
+      ],
+      "default": "Quick Bites"
+    },
+    "num of ratings": {
+      "kind": "numeric",
+      "default": 40.0,
+      "minimum": 1.0,
+      "maximum": 16345.0
+    },
+    "avg cost (two people)": {
+      "kind": "numeric",
+      "default": 400.0,
+      "minimum": 40.0,
+      "maximum": 6000.0
+    },
+    "online_order": {
+      "kind": "categorical",
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "default": "Yes"
+    },
+    "table booking": {
+      "kind": "categorical",
+      "options": [
+        "No",
+        "Yes"
+      ],
+      "default": "No"
+    },
+    "area": {
+      "kind": "categorical",
+      "options": [
+        "Banashankari",
+        "Bannerghatta Road",
+        "Basavanagudi",
+        "Bellandur",
+        "Brigade Road",
+        "Brookefield",
+        "Byresandra,Tavarekere,Madiwala",
+        "Church Street",
+        "Electronic City",
+        "Frazer Town",
+        "HSR",
+        "Indiranagar",
+        "Jayanagar",
+        "JP Nagar",
+        "Kalyan Nagar",
+        "Kammanahalli",
+        "Koramangala 4th Block",
+        "Koramangala 5th Block",
+        "Koramangala 6th Block",
+        "Koramangala 7th Block",
+        "Lavelle Road",
+        "Malleshwaram",
+        "Marathahalli",
+        "MG Road",
+        "New BEL Road",
+        "Old Airport Road",
+        "Rajajinagar",
+        "Residency Road",
+        "Sarjapur Road",
+        "Whitefield"
+      ],
+      "default": "Byresandra,Tavarekere,Madiwala"
+    },
+    "cuisine__Afghan": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Afghani": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__African": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__American": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Andhra": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Arabian": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Asian": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Assamese": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Australian": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Awadhi": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Bakery": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Bar Food": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__BBQ": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Belgian": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Bengali": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Beverages": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Bihari": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Biryani": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Bohri": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__British": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Bubble Tea": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Burger": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Burmese": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Cafe": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Cantonese": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Charcoal Chicken": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Chettinad": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Chinese": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Coffee": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Continental": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Desserts": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Drinks Only": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__European": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Fast Food": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Finger Food": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__French": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__German": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Goan": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Greek": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Grill": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Gujarati": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Healthy Food": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Hot dogs": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Hyderabadi": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Ice Cream": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Indian": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Indonesian": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Iranian": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Italian": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Japanese": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Jewish": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Juices": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Kashmiri": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Kebab": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Kerala": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Konkan": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Korean": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Lebanese": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Lucknowi": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Maharashtrian": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Malaysian": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Mangalorean": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Mediterranean": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Mexican": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Middle Eastern": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Mithai": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Modern Indian": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Momos": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Mongolian": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Mughlai": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Naga": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Nepalese": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__North Eastern": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__North Indian": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Oriya": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Paan": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Pan Asian": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Parsi": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Pizza": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Portuguese": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Rajasthani": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Raw Meats": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Roast Chicken": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Rolls": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Russian": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Salad": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Sandwich": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Seafood": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Sindhi": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Singaporean": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__South American": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__South Indian": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Spanish": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Sri Lankan": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Steak": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Street Food": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Sushi": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Tamil": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Tea": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Tex-Mex": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Thai": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Tibetan": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Turkish": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Vegan": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Vietnamese": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "cuisine__Wraps": {
+      "kind": "numeric",
+      "default": 0.0,
+      "minimum": 0.0,
+      "maximum": 1.0
+    }
+  },
+  "cuisine_frequency": {
+    "cuisine__Afghan": 8,
+    "cuisine__Afghani": 2,
+    "cuisine__African": 1,
+    "cuisine__American": 148,
+    "cuisine__Andhra": 290,
+    "cuisine__Arabian": 146,
+    "cuisine__Asian": 177,
+    "cuisine__Assamese": 3,
+    "cuisine__Australian": 1,
+    "cuisine__Awadhi": 4,
+    "cuisine__Bakery": 297,
+    "cuisine__Bar Food": 6,
+    "cuisine__BBQ": 81,
+    "cuisine__Belgian": 1,
+    "cuisine__Bengali": 104,
+    "cuisine__Beverages": 527,
+    "cuisine__Bihari": 12,
+    "cuisine__Biryani": 925,
+    "cuisine__Bohri": 1,
+    "cuisine__British": 2,
+    "cuisine__Bubble Tea": 2,
+    "cuisine__Burger": 187,
+    "cuisine__Burmese": 7,
+    "cuisine__Cafe": 518,
+    "cuisine__Cantonese": 1,
+    "cuisine__Charcoal Chicken": 9,
+    "cuisine__Chettinad": 32,
+    "cuisine__Chinese": 2416,
+    "cuisine__Coffee": 17,
+    "cuisine__Continental": 735,
+    "cuisine__Desserts": 535,
+    "cuisine__Drinks Only": 1,
+    "cuisine__European": 77,
+    "cuisine__Fast Food": 1023,
+    "cuisine__Finger Food": 150,
+    "cuisine__French": 13,
+    "cuisine__German": 2,
+    "cuisine__Goan": 13,
+    "cuisine__Greek": 4,
+    "cuisine__Grill": 4,
+    "cuisine__Gujarati": 14,
+    "cuisine__Healthy Food": 101,
+    "cuisine__Hot dogs": 1,
+    "cuisine__Hyderabadi": 56,
+    "cuisine__Ice Cream": 163,
+    "cuisine__Indian": 1,
+    "cuisine__Indonesian": 9,
+    "cuisine__Iranian": 3,
+    "cuisine__Italian": 383,
+    "cuisine__Japanese": 41,
+    "cuisine__Jewish": 1,
+    "cuisine__Juices": 151,
+    "cuisine__Kashmiri": 4,
+    "cuisine__Kebab": 103,
+    "cuisine__Kerala": 215,
+    "cuisine__Konkan": 10,
+    "cuisine__Korean": 19,
+    "cuisine__Lebanese": 23,
+    "cuisine__Lucknowi": 9,
+    "cuisine__Maharashtrian": 21,
+    "cuisine__Malaysian": 15,
+    "cuisine__Mangalorean": 97,
+    "cuisine__Mediterranean": 67,
+    "cuisine__Mexican": 58,
+    "cuisine__Middle Eastern": 12,
+    "cuisine__Mithai": 128,
+    "cuisine__Modern Indian": 21,
+    "cuisine__Momos": 157,
+    "cuisine__Mongolian": 1,
+    "cuisine__Mughlai": 233,
+    "cuisine__Naga": 3,
+    "cuisine__Nepalese": 9,
+    "cuisine__North Eastern": 8,
+    "cuisine__North Indian": 3215,
+    "cuisine__Oriya": 26,
+    "cuisine__Paan": 1,
+    "cuisine__Pan Asian": 2,
+    "cuisine__Parsi": 2,
+    "cuisine__Pizza": 220,
+    "cuisine__Portuguese": 1,
+    "cuisine__Rajasthani": 23,
+    "cuisine__Raw Meats": 1,
+    "cuisine__Roast Chicken": 1,
+    "cuisine__Rolls": 189,
+    "cuisine__Russian": 1,
+    "cuisine__Salad": 117,
+    "cuisine__Sandwich": 111,
+    "cuisine__Seafood": 266,
+    "cuisine__Sindhi": 1,
+    "cuisine__Singaporean": 5,
+    "cuisine__South American": 1,
+    "cuisine__South Indian": 1442,
+    "cuisine__Spanish": 7,
+    "cuisine__Sri Lankan": 2,
+    "cuisine__Steak": 53,
+    "cuisine__Street Food": 393,
+    "cuisine__Sushi": 6,
+    "cuisine__Tamil": 3,
+    "cuisine__Tea": 31,
+    "cuisine__Tex-Mex": 6,
+    "cuisine__Thai": 128,
+    "cuisine__Tibetan": 35,
+    "cuisine__Turkish": 9,
+    "cuisine__Vegan": 1,
+    "cuisine__Vietnamese": 18,
+    "cuisine__Wraps": 8
+  }
+}

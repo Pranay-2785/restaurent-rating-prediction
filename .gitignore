@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+data/
+artifacts/*
+!artifacts/best_model.joblib
+!artifacts/metrics.json
+!artifacts/feature_metadata.json
+.DS_Store
